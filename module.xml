@@ -13,11 +13,8 @@
           <Version>*</Version>
         </ModuleReference>
       </Dependencies>
-      <CSPApplication CookiePath="/api/user/csvgen/" DefaultTimeout="900" DispatchClass="CSVGEN.API.Dispatch" MatchRoles=":%All" PasswordAuthEnabled="1" Recurse="1" ServeFiles="2" ServeFilesTimeout="3600" UnauthenticatedEnabled="0" Url="/api/USER/csvgen" UseSessionCookie="2"/>
       <CSPApplication CookiePath="/" DispatchClass="dc.Sample.NumPriceChannel" MatchRoles=":%DB_USER" PasswordAuthEnabled="1" Recurse="1" UnauthenticatedEnabled="0" Url="/channel" UseSessionCookie="1"/>
       <CSPApplication CookiePath="/" DispatchClass="dc.Sample.CountryNoshow" MatchRoles=":%DB_USER" PasswordAuthEnabled="1" Recurse="1" UnauthenticatedEnabled="0" Url="/countrynoshow" UseSessionCookie="1"/>
-      <CSPApplication CookiePath="/crud" DispatchClass="dc.Sample.PersonREST" MatchRoles=":%DB_USER" PasswordAuthEnabled="1" Recurse="1" UnauthenticatedEnabled="0" Url="/crud" UseSessionCookie="1"/>
-      <CSPApplication CookiePath="/csp/user/csvgen" DefaultTimeout="900" DeployPath="${cspdir}csvgen/" MatchRoles=":%DB_USER" PasswordAuthEnabled="1" Recurse="1" ServeFiles="2" ServeFilesTimeout="3600" SourcePath="web" UnauthenticatedEnabled="0" Url="/csp/USER/csvgen" UseSessionCookie="2"/>
       <CSPApplication CookiePath="/csp/user/" DefaultTimeout="900" DeployPath="${cspdir}user/" Description="User Namespace applications" GroupById="%ISCMgtPortal" MatchRoles=":%DB_USER" PasswordAuthEnabled="1" Recurse="1" ServeFiles="2" ServeFilesTimeout="3600" SourcePath="web" UnauthenticatedEnabled="1" Url="/csp/user" UseSessionCookie="2"/>
       <CSPApplication CookiePath="/" DispatchClass="dc.Sample.GuestStayRelation" MatchRoles=":%DB_USER" PasswordAuthEnabled="1" Recurse="1" UnauthenticatedEnabled="0" Url="/grelation" UseSessionCookie="1"/>
       <CSPApplication CookiePath="/" DispatchClass="dc.Sample.NoshowFore" MatchRoles=":%DB_USER" PasswordAuthEnabled="1" Recurse="1" UnauthenticatedEnabled="0" Url="/noshowfore" UseSessionCookie="1"/>
